@@ -1,5 +1,188 @@
-<main class="max-w-6xl mx-auto px-4">
-  <div class="flex justify-center text-center">
-    <h1 class="text-4xl font-bold mt-20">Hello World!</h1>
-  </div>
-</main>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Resume - Start Bootstrap Theme</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">PHATTHANAN WANNAPAN</span>
+                <span> <%= image_tag("myprofile.jpg", class: "img-fluid img-profile rounded-circle mx-auto mb-2", alt: "...") %></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        PHATTHANAN
+                        <span class="text-primary">WANNAPAN</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                         Chiang Mai, 50200, Thailand
+                        <a href="mailto:phatthanun15@gmail.com">phatthanun15@gmail.com</a>
+                    </div>
+                    <p class="lead mb-5">A third-year Computer Science major, committed to learning and developing skills in programming and
+                        information technology, and possessing excellent cooperation abilities to work well with others</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://github.com/np715"><i class="fab fa-github"></i></a>
+                        
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Chiang Mai University</h3>
+                            <div class="subheading mb-3">Bachelor of Science</div>
+                            <div>Computer Science</div>
+                            <p>GPAX: 3.49</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2022 – Present</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+
+                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">LAUNDRY</h3>
+                            <%# <div class="subheading mb-3">Shout! Media Productions</div> %>
+                             <ul>
+                                <li> To learn how to create websites using React, so I built a small website as a guide to understanding <br> the basics of React. </li>
+                                <li>  The project simulates the operation of a washing machine, featuring a coin insertion system that  <br>starts a countdown timer and sends a notification via LINE when the cycle is finished.</li>
+                                <li> This project is part of my self-development as a Frontend Developer.</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Jan 2025</span></div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Interactive Website for Therapeutic Communication</h3>
+                            <%# <div class="subheading mb-3">Intelitec Solutions</div> %>
+                            <ul>
+                                <li> Collaborated with a team to develop an interactive website aimed at educating users on effective <br> nursing communication in patient care as part of my Software Engineering course.</li>
+                                <li>  Served as the Requirements Manager, responsible for gathering, analyzing, and evaluating client <br> requirements to ensure alignment with project goals.</li>
+                                <li> Engaged in requirements analysis, database design, and the development of core functionalities <br> to enhance user experience and site effectiveness.</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Jul 2024 – Oct 2024</span></div>
+                    </div>
+                    
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">EventSpark Event Services Website</h3>
+                            <%# <div class="subheading mb-3">Intelitec Solutions</div> %>
+                            <ul>
+                                <li> Collaborated with a team to develop a website for an event services platform as part of the Modern<br> Application Development course.</li>
+                                <li> Designed to enable users to publish their events and register for others, enhancing community engagement.</li>
+                                <li> Played a key role in UX/UI design, focusing on creating an intuitive and visually appealing user interface.</li>
+                                <li>Worked effectively with team members to ensure project alignment and timely delivery.</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Jan 2024 – Mar 2024</span></div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Pandoda RPG Game</h3>
+                            <%# <div class="subheading mb-3">Shout! Media Productions</div> %>
+                             <ul>
+                                <li> Collaborated with a team to design and develop a basic RPG game as part of the Introduction to <br>ObjectOriented Programming course, applying core object-oriented programming principles.</li>
+                                <li>  Served as the graphic designer, responsible for creating visually engaging graphics and user interfaces <br>to enhance the overall gaming experience.</li>
+                                <li> Worked closely with team members to optimize game performance and ensure efficient resource <br>management within a constrained timeline.</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Feb 2023 – Mar 2023</span></div>
+                    </div>
+
+                   
+                    
+                </div>
+            </section>
+            
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/></li>
+                        <li class="list-inline-item"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/></li>
+                        <li class="list-inline-item"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></li>
+                        <li class="list-inline-item"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/></li>
+                        <li class="list-inline-item"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/></li>
+                        <li class="list-inline-item"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" alt="ruby" width="40" height="40"/></li>
+                      
+                    </ul>
+
+                    <div class="subheading mb-3">Database</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/></li>
+                      
+                    </ul>
+                    
+                    <div class="subheading mb-3">Testing</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/> </li>
+                        <li class="list-inline-item"><img src="https://raw.githubusercontent.com/simple-icons/simple-icons/6e46ec1fc23b60c8fd0d2f2ff46db82e16dbd75f/icons/cypress.svg" alt="cypress" width="40" height="40"/> </li>
+                         <li class="list-inline-item"><img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" alt="jest" width="40" height="40"/></li>
+                    </ul>
+
+                    <div class="subheading mb-3">Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/>  </li>
+                        <li class="list-inline-item"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </li>
+                    </ul>
+
+                    <div class="subheading mb-3">Workflow</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"></span>
+                            Agile Development & Scrum
+                        </li>
+                    </ul>
+
+                </div>
+            </section>
+            
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

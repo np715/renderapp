@@ -15,7 +15,7 @@ services:
         sync: false # You'll provide this value on Blueprint creation
       - key: WEB_CONCURRENCY
         value: 2 # Recommended default
-        
+         
 databases:
   - name: bootcamp
     databaseName: bootcamp
